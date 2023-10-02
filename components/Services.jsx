@@ -28,25 +28,30 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="bg-gray-800 bg-cover text-white py-[100px] lg:px-[100px] pb-[200px] w-full">
-      <div className="flex items-center flex-col justify-center lg:flex-row">
+    <section className="bg-banner bg-cover text-white py-[100px] lg:px-[100px] pb-[200px] w-full relative">
+      <div class="absolute inset-0 opacity-[90%] bg-black"></div>
+      <div className="flex items-center flex-col justify-center lg:flex-row relative z-10">
         <div className="lg:w-4/6 px-5 lg:px-0 flex flex-col items-center lg:items-start">
           <div className="flex items-center gap-x-2 justify-center flex-col-reverse gap-y-3 lg:gap-y-0 lg:flex-row">
-            <div className="h-[2px] w-[50px] bg-[#6CB4EE]" />
+            <div className="h-[2px] w-[50px] bg-[#ff4f30]" />
             <span className="text-sm">OUR SERVICES</span>
           </div>
           <h2 className="text-4xl font-semibold w-full mt-[30px] text-center lg:text-left">
-            <span className="mr-2 text-[#6CB4EE]">Services</span>We Can <br />
+            <span className="mr-2 text-[#ff4f30]">Services</span>We Can <br />
             Help You With!
           </h2>
           <p className="my-10 text-center text-[18px] lg:text-[16px] lg:text-left">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
-            alias quis nemo. Quia quas quasi fugiat dolore, architecto quibusdam
+            alias quis nemo. Quia quas quasi fugiat dolore, architecto
+            quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Deleniti consectetur temporibus deserunt neque nostrum, cum ab
+            voluptate quasi quos nihil totam debitis ipsum ea nesciunt aut sit
+            reiciendis et aspernatur.
           </p>
 
           <Link
             href="/services"
-            className="text-[14px] bg-[#6CB4EE] px-8 py-3 rounded-full lg:flex items-center gap-x-3 text-white font-bold hidden"
+            className="text-[14px] bg-[#ff4f30] px-8 py-3 rounded-full lg:flex items-center gap-x-3 text-white font-bold hidden"
           >
             DISCOVER MORE
           </Link>
@@ -57,7 +62,7 @@ const Services = () => {
               className="lg:w-[240px] w-full  h-[250px] lg:h-[200px] bg-black/40 rounded-[40px] flex items-center justify-center flex-col text-[22px] lg:text-[18px] text-center"
               key={index}
             >
-              <span className="text-[50px] text-[#6CB4EE] mb-[20px]">
+              <span className="text-[50px] text-[#ff4f30] mb-[20px]">
                 {service.icon}
               </span>
               {service.title1}

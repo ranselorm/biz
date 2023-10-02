@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        banner: "url('/public/web.jpg')",
+        banner: "url('/ban.jpg')",
       },
       fontFamily: {},
     },

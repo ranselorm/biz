@@ -1,15 +1,12 @@
-import Services from "@/components/Services";
 import Link from "next/link";
+import Consult from "@/components/Consult";
+import Services from "@/components/Services";
 
 export default function Home() {
   return (
-    <main class="w-full">
+    <main class="max-w-[1440px] w-full">
       <div className="relative h-[100vh] ">
-        <img
-          src="/web2.jpg"
-          alt="Your Image"
-          class="w-full h-full object-cover"
-        />
+        <img src="/web2.jpg" alt="banner" class="w-full h-full object-cover" />
         <div class="absolute inset-0 bg-black opacity-[80%]"></div>
         <div class="absolute inset-0 flex items-center justify-center flex-col">
           <button className="text-[12px] bg-white px-4 py-2 rounded-full flex items-center gap-x-3 text-black">
@@ -17,9 +14,9 @@ export default function Home() {
             DIGITAL AGENCY
             <div className="w-[12px] h-[12px] bg-[#6CB4EE] rounded-full" />
           </button>
-          <h2 className="text-[60px] text-white leading-[70px] text-center my-8">
-            <span className="text-[#6CB4EE] mr-4">Digital</span>Agency You{" "}
-            <br />
+          <h2 className="lg:text-[60px] text-[40px] text-white leading-[70px] text-center my-8">
+            <span className="text-[#6CB4EE] mr-4">Digital</span>Agency You
+            <br className="hidden lg:flex" />
             Can Rely Upon
           </h2>
           <p class="text-white text-xl max-w-2xl text-center">
@@ -43,6 +40,7 @@ export default function Home() {
         </div>
       </div>
       <Services />
+      <Consult />
     </main>
   );
 }

@@ -14,7 +14,7 @@ const About = () => {
             <Image src="/dev.jpg" alt="" fill className="object-cover" />
           </div>
           <article className="lg:w-2/4 px-4 flex flex-col items-start justify-center pl-8">
-            <Button text="ABOUT US" className="hidden lg:flex shadow-2xl" />
+            <Button text="ABOUT US" styles="mx-auto lg:mx-0" />
             <h2 className="my-[20px] text-3xl font-bold text-center lg:text-left">
               <span className="mr-1 text-[#ff4f30]">Welcome</span>To [Company
               Name]

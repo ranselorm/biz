@@ -3,6 +3,7 @@ import Consult from "@/components/Consult";
 import Services from "@/components/Services";
 import About from "@/components/About";
 import Button from "@/components/Button";
+import Portfolio from "@/components/Portfolio";
 
 export default function Home() {
   return (
@@ -40,6 +41,7 @@ export default function Home() {
       <Services />
       <Consult />
       <About />
+      <Portfolio />
     </main>
   );
 }

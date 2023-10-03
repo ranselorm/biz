@@ -15,7 +15,7 @@ const Consult = () => {
               <p className="text-4xl font-bold">+23355444000</p>
             </div>
           </div>
-          <div className="w-[2px] h-[100px] bg-red-700 hidden lg:flex" />
+          <div className="w-[2px] h-[100px] bg-white hidden lg:flex" />
           <h4 className="text-sm mx-8 w-full font-semibold text-center text-white lg:text-left">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
             iste doloremque velit. Quasi totam earum

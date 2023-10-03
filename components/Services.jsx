@@ -28,7 +28,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="bg-banner bg-cover text-white py-[100px] lg:px-[100px] pb-[200px] w-full relative">
+    <section className="bg-banner bg-contain bg-center text-white py-[100px] lg:px-[100px] pb-[200px] w-full relative">
       <div class="absolute inset-0 opacity-[90%] bg-black"></div>
       <div className="flex items-center flex-col justify-center lg:flex-row relative z-10">
         <div className="lg:w-4/6 px-5 lg:px-0 flex flex-col items-center lg:items-start">

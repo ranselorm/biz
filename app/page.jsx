@@ -2,6 +2,7 @@ import Link from "next/link";
 import Consult from "@/components/Consult";
 import Services from "@/components/Services";
 import About from "@/components/About";
+import Button from "@/components/Button";
 
 export default function Home() {
   return (
@@ -10,11 +11,7 @@ export default function Home() {
         <img src="/web2.jpg" alt="banner" class="w-full h-full object-cover" />
         <div class="absolute inset-0 bg-black opacity-[80%]"></div>
         <div class="absolute inset-0 flex items-center justify-center flex-col">
-          <button className="text-[12px] bg-white px-4 py-2 rounded-full flex items-center gap-x-3 text-black">
-            <div className="w-[12px] h-[12px] bg-[#ff4f30] rounded-full" />
-            DIGITAL AGENCY
-            <div className="w-[12px] h-[12px] bg-[#ff4f30] rounded-full" />
-          </button>
+          <Button text="DIGITAL AGENCY" />
           <h2 className="lg:text-[60px] text-[40px] text-white leading-[70px] text-center my-8">
             <span className="text-[#ff4f30] mr-4">Digital</span>Agency You
             <br className="hidden lg:flex" />

@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Button from "@/components/Button";
 import Portfolio from "@/components/Portfolio";
 import Team from "@/components/Team";
+import Reviews from "@/components/Reviews";
 
 export default function Home() {
   return (
@@ -39,11 +40,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Services />
-      <Consult />
-      <About />
-      <Portfolio />
-      <Team />
+      {/* <Services /> */}
+      {/* <Consult /> */}
+      {/* <About /> */}
+      {/* <Portfolio /> */}
+      {/* <Team /> */}
+      <Reviews />
     </main>
   );
 }

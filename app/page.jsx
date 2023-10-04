@@ -40,11 +40,11 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* <Services /> */}
-      {/* <Consult /> */}
-      {/* <About /> */}
-      {/* <Portfolio /> */}
-      {/* <Team /> */}
+      <Services />
+      <Consult />
+      <About />
+      <Portfolio />
+      <Team />
       <Reviews />
     </main>
   );

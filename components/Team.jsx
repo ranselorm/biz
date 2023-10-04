@@ -5,12 +5,12 @@ import Image from "next/image";
 const teams = [
   {
     name: "Selorm",
-    image: "/t2.jpg",
+    image: "/t1.jpg",
     position: "Software Engineer",
   },
   {
     name: "Patrick",
-    image: "/t1.jpg",
+    image: "/t2.jpg",
     position: "UI/UX Engineer",
   },
   {

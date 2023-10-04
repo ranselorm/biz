@@ -39,10 +39,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* <Services /> */}
-      {/* <Consult /> */}
-      {/* <About /> */}
-      {/* <Portfolio /> */}
+      <Services />
+      <Consult />
+      <About />
+      <Portfolio />
       <Team />
     </main>
   );

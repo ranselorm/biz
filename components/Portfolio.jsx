@@ -9,23 +9,23 @@ const portfolio = [
   },
   {
     name: "Test Project",
-    image: "/web.jpg",
+    image: "/web2.jpg",
   },
   {
     name: "Test Project",
-    image: "/web.jpg",
+    image: "/web3.jpg",
   },
   {
     name: "Test Project",
-    image: "/web.jpg",
+    image: "/web4.jpg",
   },
   {
     name: "Test Project",
-    image: "/web.jpg",
+    image: "/dev.jpg",
   },
   {
     name: "Test Project",
-    image: "/web.jpg",
+    image: "/hair-jem.jpeg",
   },
 ];
 
@@ -37,7 +37,8 @@ const Portfolio = () => {
           <Button text="OUR PORTFOLIO" styles="mx-auto" />
           <div className="px-10">
             <h2 className="text-[40px] font-semibold">
-              <span className="text-[#ff4f30] mr-2">Projects</span>We Completed
+              <span className="text-[#ff4f30] mr-2">Projects</span>We&apos;ve
+              Completed
             </h2>
             <p className="text-center py-2">
               Lorem ipsum dolor sit amet consectetur. Magni perspiciatis quae.

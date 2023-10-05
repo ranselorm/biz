@@ -35,7 +35,7 @@ const Reviews = () => {
           <div className="lg:w-2/4 px-5 lg:px-0 flex flex-col items-center justify-center lg:items-start">
             <Button text="CLIENT REVIEWS" />
             <h2 className="text-4xl font-semibold w-full mt-[30px] text-center lg:text-left">
-              <span className="mr-2 text-[#ff4f30] font-bold">REVIEWS</span>
+              <span className="mr-2 text-[#ff4f30] font-bold">Reviews</span>
               Of Clients
             </h2>
           </div>
@@ -51,14 +51,14 @@ const Reviews = () => {
             <div className="bg-black/50 w-full lg:w-[320px] h-[250px] rounded-2xl flex flex-col items-center justify-center text-center px-4 pt-10 relative">
               <p className="text-xs">{review.text}</p>
               <div className="h-[1px] w-[200px] bg-white/80 opacity-25 my-[10px]" />
-              <div className="">
+              <div>
                 <h2>{review.name}</h2>
                 <span className="text-xs text-[#ff4f30]">
                   {review.position}
                 </span>
                 <p className="text-xs">({review.client})</p>
               </div>
-              <div className="w-[70px] h-[70px] bg-white rounded-full absolute top-0 left-8 border-b-4 border-gray-800 -mt-[35px] overflow-hidden">
+              <div className="w-[70px] h-[70px] bg-white rounded-full absolute top-0 left-8 border-4 border-gray-800 -mt-[35px] overflow-hidden">
                 <img
                   src={review.image}
                   alt=""

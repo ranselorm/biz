@@ -29,7 +29,7 @@ const services = [
 const Services = () => {
   return (
     <section className="bg-banner bg-contain bg-center text-white py-[100px] lg:px-[100px] pb-[200px] w-full relative">
-      <div class="absolute inset-0 opacity-[90%] bg-black"></div>
+      <div class="absolute inset-0 opacity-[95%] bg-black"></div>
       <div className="flex items-center flex-col justify-center lg:flex-row relative z-10">
         <div className="lg:w-4/6 px-5 lg:px-0 flex flex-col items-center lg:items-start">
           <div className="flex items-center gap-x-2 justify-center flex-col-reverse gap-y-3 lg:gap-y-0 lg:flex-row">
@@ -59,7 +59,7 @@ const Services = () => {
         <div className="lg:w-5/6 px-3 lg:px-0 flex justify-center flex-wrap gap-6">
           {services.map((service, index) => (
             <div
-              className="lg:w-[240px] w-full  h-[250px] lg:h-[200px] bg-black/40 rounded-[40px] flex items-center justify-center flex-col text-[22px] lg:text-[18px] text-center"
+              className="lg:w-[240px] w-full h-[250px] lg:h-[200px] bg-black/40 rounded-[40px] flex items-center justify-center flex-col text-[22px] lg:text-[18px] text-center"
               key={index}
             >
               <span className="text-[50px] text-[#ff4f30] mb-[20px]">
